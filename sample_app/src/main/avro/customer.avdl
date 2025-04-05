@@ -2,7 +2,7 @@
 protocol Customer {
 	record UserProfile {
 		long id;
-		string userSsn;
+		@logicalType("accountId") long accountId;
 		@logicalType("email") string userEmail;
 	}
 }
