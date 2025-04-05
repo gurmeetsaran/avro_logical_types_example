@@ -1,0 +1,8 @@
+@namespace("com.example.avro.customer")
+protocol Customer {
+	record UserProfile {
+		long id;
+		string userSsn;
+		@logicalType("email") string userEmail;
+	}
+}
