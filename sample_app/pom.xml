@@ -53,9 +53,11 @@
                         <configuration>
                             <customLogicalTypeFactories>
                                 <logicalTypeFactory>org.example.customtypes.EmailLogicalType$TypeFactory</logicalTypeFactory>
+                                <logicalTypeFactory>org.example.customtypes.AccountIdLogicalType$TypeFactory</logicalTypeFactory>
                             </customLogicalTypeFactories>
                             <customConversions>
                                 <conversion>org.example.customtypes.EmailConversion</conversion>
+                                <conversion>org.example.customtypes.AccountIdConversion</conversion>
                             </customConversions>
                         </configuration>
                     </execution>
